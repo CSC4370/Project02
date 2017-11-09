@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 09, 2017 at 09:41 PM
+-- Generation Time: Nov 09, 2017 at 10:36 PM
 -- Server version: 5.6.35
 -- PHP Version: 7.1.8
 
@@ -71,7 +71,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `firstname`, `lastname`, `middlename`, `gender`, `sport`, `classification`, `moreinfo`) VALUES
 (1, 'jerry ', 'jerry', 'edwin', 'felix', 'male', 'cricket', 'outdoor', 'coming soon'),
-(2, 'Sharon kumar', 'Sharon', 'kumar', 'k', 'male', 'chess', 'indoor', 'contact sharon');
+(2, 'Sharon kumar', 'Sharon', 'kumar', 'k', 'male', 'chess', 'indoor', 'contact sharon'),
+(3, 'jerry ', 'jerry', 'edwin', 'felix', 'male', 'cricket', 'outdoor', 'coming soon');
 
 --
 -- Indexes for dumped tables
@@ -102,7 +103,7 @@ ALTER TABLE `registration`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
