@@ -12,28 +12,30 @@ if ((isset($_SESSION['username']) != '')) {
 	<head>
 		<meta charset="utf-8">
 		<title>User Login Form</title>
-		<link rel="stylesheet"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="project2.css" />
+		
+		
 		
 		<style>
-			div {
-    			border: 0px solid black;
-    			margin-top: 10px;
-    			margin-bottom: 10px;
-    			margin-right: 15px;
-    			margin-left: 8px;
-    			background-color: white;
-			}
+			
+			
+			
 		</style>
 		
 	</head>
  
 	<body>
+	<article>
 	
 	<div class = containers>
 
+	<nav>
+  			<ul id="profilePic"></ul>
+		</nav>
+	
 	<div class="loginBox">
-		<h3>User Login Form</h3>
+		<h1>User Login Form</h1>
 		<br><br>
 	<form method="post" action="">
 		<label>Username:</label><br>
@@ -41,20 +43,30 @@ if ((isset($_SESSION['username']) != '')) {
 		<label>Password:</label><br>
 			<input type="password" name="password" placeholder="password" />  <br><br>
 			<input type="submit" name="submit" value="Login" /> 
+			
 	</form>
 	
-	<form method="post" action="guestSearch.php">
+	<form action="guestSearch.php" method="post">
 		<input type="submit" name="submit" value="Guest Tour" />
-		</form><br />
-
-		<a href="registration.php" style="font-size:14px">New? Then Register Here</a>
+	</form><br />
 	
-		<div class="error"><?php echo $error;?></div>
+	<form method="post" action="index2.php">
 		
-	<form action = "index2.php" method="post">
-		<p>For Authorized Users Only:</p>
+		
+		<a href="registration.php" style="font-size:14px">New? Then Register Here</a>
+		
+		<p>*For Authorized Users Only*</p>
+		<p>
 		<input type="submit" name="admin" value="Admin" />
-	</form>
+		</center>
+		</form>
+
+		
+	
+	
+		
+	
 	</div>
+	</article>
 	</body>
 </html>
