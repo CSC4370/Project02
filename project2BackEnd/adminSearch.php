@@ -3,18 +3,9 @@
 		<title>Search Records</title>
 
 		<link rel="stylesheet"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		href="adminSearch.css">
 
-		<style>
-			div {
-    			border: 0px solid black;
-    			margin-top: 10px;
-    			margin-bottom: 10px;
-    			margin-right: 15px;
-    			margin-left: 10px;
-    			background-color: white;
-			}
-		</style>
+		
 	</head>
 	
 	<body>
@@ -32,13 +23,16 @@
 ?>
 	
 	<div class = containers>
-	
-	<h1 class="hello">Hello, <em><?php echo $admin_check;?>!</em></h1>
-
-	<a href="logout.php" style="font-size:18px">Logout?</a>
-		<br><br>
+	<a href="logout.php" style="font-size:18px">Logout?</a> | 
+	<a href="adminSearch.php" style="font-size:18px">Refresh Search</a> | 
 	<a href="adminHome.php" style="font-size:18px">Home Page</a>
-		<br><br>
+
+	
+	<br /><br />
+	<br /><br /><br /><br />
+	<br /><br /><br /><br />
+	<br /><br /><br /><br />
+	<h1 class="hello">Hello, <em><?php echo $admin_check;?>!</em></h1>
 	
 	<form name="frmSearch" method="post" action="<?php echo $_SERVER['SCRIPT_NAME'];?>">
   	<table align="center" width="390" border="0">

@@ -8,30 +8,32 @@
 		<meta charset="utf-8">
 		<title>Home</title>
 		<link rel="stylesheet"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		href="userProfile.css">
 
-		<style>
-			div {
-    			border: 0px solid black;
-    			margin-top: 10px;
-    			margin-bottom: 10px;
-    			margin-right: 15px;
-    			margin-left: 8px;
-    			background-color: white;
-			}
-		</style>
+		
 	</head>
  
 	<body>
+		
+		<a href="logout.php" style="font-size:18px">Logout?</a> | 
+	
+		<a href="userSearch.php" style="font-size:18px">Search</a>
+	
+		
 	
 		<div class = containers>
-		
+		<br>
+		<br><br><br><br>
+		<br><br><br><br>
+		<br><br><br><br>
 		<h1 class="hello">Hello, <em><?php echo $user_check;?>!</em></h1>
 			<br />
-		<a href="logout.php" style="font-size:18px">Logout?</a>
-			<br /><br />
-		<a href="userSearch.php" style="font-size:18px">Search</a>
-		<br /><br />
+		
+		
+		
+	<p><b><u>About:</u></b> A mobile sports collaboration platform. Let your talent be seen!
+	With ShowSkill you can upload game highlights, view and message players and coaches. Don't
+	waste the opportunity to show what you are truly worth!</p>
 
 
 <?php
@@ -41,9 +43,11 @@
    $query = mysqli_query($db, $sql);
 
 ?>
+	
+
 	<table width="900px" border="1">
   		<tr>
-  			<td align="center">Profile List</td>
+  			<td align="center"><b>Profile List</b></td>
   		</tr>
   		
   		<tr>

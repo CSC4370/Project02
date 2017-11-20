@@ -3,18 +3,8 @@
 		<title>Search Records</title>
 
 		<link rel="stylesheet"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		href="userSearch.css">
 
-		<style>
-			div {
-    			border: 0px solid black;
-    			margin-top: 10px;
-    			margin-bottom: 30px;
-    			margin-right: 30px;
-    			margin-left: 10px;
-    			background-color: white;
-			}
-		</style>
 	</head>
 	
 	<body>
@@ -30,15 +20,26 @@
 			$strKeyword = $_POST["txtKeyword"];
 		}
 	?>
-
+		
+		<a href="logout.php" style="font-size:18px">Logout?</a> | 
+	
+		<a href="userSearch.php" style="font-size:18px">Refresh Search</a> | 
+		
+		<a href="userHome.php" style="font-size:18px">Home Page</a>
+	
+		
+	
 		<div class = containers>
-
+		<br>
+		<br><br><br><br>
+		<br><br><br><br>
+		<br><br><br><br>
 		<h1 class="hello">Hello, <em><?php echo $user_check;?>!</em></h1>
 			<br />
-		<a href="logout.php" style="font-size:18px">Logout?</a>
-			<br /><br />
-		<a href="userHome.php" style="font-size:18px">Home Page</a>
-			<br /><br />
+		
+		
+		<div class = containers>
+
 		<form name="frmSearch" method="post" action="<?php echo $_SERVER['SCRIPT_NAME'];?>">
   		<table width="380" border="0" align="center">
     		<tr>

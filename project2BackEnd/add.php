@@ -8,30 +8,23 @@
 		<meta charset="utf-8">
 		<title>Home</title>
 		<link rel="stylesheet"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		href="adminAdd.css">
 
-		<style>
-			div {
-    			border: 0px solid black;
-    			margin-top: 10px;
-    			margin-bottom: 70px;
-    			margin-right: 50px;
-    			margin-left: 15px;
-    			background-color: white;
-			}
-		</style>
+		
 	</head>
  
 	<body>
 
 		<div class = containers>
+		<a href="logout.php" style="font-size:18px">Logout?</a> | 
+		<a href="adminSearch.php" style="font-size:18px">Search</a> | 
+		<a href='adminHome.php'>Home Page</a>
 		
+		<br /><br />
+		<br /><br /><br /><br />
+		<br /><br /><br /><br />
+		<br /><br /><br /><br />
 		<h1 class="hello">Hello, <em><?php echo $admin_check;?>!</em></h1>
-			<br />
-		<a href="logout.php" style="font-size:18px">Logout?</a>
-			<br /><br />
-		<a href="adminSearch.php" style="font-size:18px">Search</a>
-			<br /><br /><a href='adminHome.php'>Home Page</a><br />
 
 
 		<?php

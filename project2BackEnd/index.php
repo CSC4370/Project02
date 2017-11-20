@@ -14,14 +14,7 @@ if ((isset($_SESSION['username']) != '')) {
 		<title>User Login Form</title>
 		
 		<link rel="stylesheet" href="project2.css" />
-		
-		
-		
-		<style>
-			
-			
-			
-		</style>
+
 		
 	</head>
  

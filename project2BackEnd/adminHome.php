@@ -8,30 +8,23 @@
 		<meta charset="utf-8">
 		<title>Home</title>
 		<link rel="stylesheet"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		href="adminHome.css">
 
-		<style>
-			div {
-    			border: 0px solid black;
-    			margin-top: 10px;
-    			margin-bottom: 10px;
-    			margin-right: 15px;
-    			margin-left: 10px;
-    			background-color: white;
-			}
-		</style>
+		
 	</head>
  
 	<body>
 
 		<div class = containers>
-
-			<h1 class="hello">Hello, <em><?php echo $admin_check;?>!</em></h1>
-				<br />
-			<a href="logout.php" style="font-size:18px">Logout?</a>
-				<br /><br />
+			<a href="logout.php" style="font-size:18px">Logout?</a> | 
 			<a href="adminSearch.php" style="font-size:18px">Search</a>
-				<br /><br /><br />
+			
+			<br /><br />
+			<br /><br /><br /><br />
+			<br /><br /><br /><br />
+			<br /><br /><br /><br />
+			<h1 class="hello">Hello, <em><?php echo $admin_check;?>!</em></h1>
+				
 
 <?php
 	$sql = "SELECT * FROM users ";

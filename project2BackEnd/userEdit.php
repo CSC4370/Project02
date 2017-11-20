@@ -8,31 +8,27 @@
 		<meta charset="utf-8">
 		<title>Home</title>
 		<link rel="stylesheet"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		href="userEdit.css">
 
-		<style>
-			div {
-    			border: 0px solid black;
-    			margin-top: 10px;
-    			margin-bottom: 70px;
-    			margin-right: 50px;
-    			margin-left: 10px;
-    			background-color: white;
-			}
-		</style>
+		
 	</head>
  
 	<body>
 
 		<div class = containers>
 
+
+		<a href="logout.php" style="font-size:18px">Logout?</a> | 
+			
+		<a href="userSearch.php" style="font-size:18px">Search</a> | 
+			
+		<a href='userHome.php'>Home Page</a>
+		
+		<br><br>
+		<br><br><br><br>
+		<br><br><br><br>
+		<br><br><br><br>
 		<h1 class="hello">Hello, <em><?php echo $user_check;?>!</em></h1>
-			<br>
-		<a href="logout.php" style="font-size:18px">Logout?</a>
-			<br /><br />
-		<a href="userSearch.php" style="font-size:18px">Search</a>
-			<br /><br />
-		<a href='userHome.php'>Home Page</a><br>
 
 
 		<?php
@@ -74,7 +70,7 @@
 		
 		
 		<div align="center">
-        	<h1>Update Record</h1><br><br>'
+        	<h1>Update Record</h1>
                 <p style="color:#FF0000;"><?php echo $status;?></p>
 				<form name="form" method="post" action="">
 		
