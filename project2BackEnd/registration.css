@@ -1,0 +1,134 @@
+			#header {
+    			height: 175px;
+    			background-repeat: no-repeat;
+    			font-family: Cambria;
+			}
+			#header h2 {    
+    			font-size: 4em;
+   	 			position: relative;
+    			top: 27px;
+    			left: 200px;
+    			display: inline;
+    			
+			}
+			#header p {
+    			font-size: 2em;
+    			font-weight: bold;
+    			position: relative;
+    			top: 70px;
+    			right: 13.3cm;
+    			display: inline;
+			}    
+			#menu {
+    			position: relative;
+    			top: 75px;
+    			left: 4.3cm;
+    			display: inline-block;
+			}
+			#menu li {
+    			font-weight: bold;
+    			display: inline;
+    			text-transform: uppercase;
+    			margin-right: 1cm;
+			}
+			#menu input {
+    			font-size: 0.7em;
+    			text-transform: lowercase;
+    			text-align: left;
+    			position: relative;
+    			top: -4px;
+			}
+			a:hover {
+    			color: lime;
+			}
+			
+			a {
+    			color: yellow;
+    			text-shadow: 1px 1px 2px black, 0 0 25px darkslategray, 0 0 5px black;
+			}
+			
+			label {
+				color: yellow;
+    			text-shadow: 1px 1px 2px black, 0 0 25px darkslategray, 0 0 5px black;
+			}
+			
+			header, footer {
+    			padding: 3em;
+    			
+    			
+    			clear: left;
+    			text-align: center;
+			}
+			nav {
+    			float: left;
+    			max-width: 50px;
+    			margin-left: 2cm;
+    			margin-right: 2cm;
+    			padding: 2cm;	
+			}
+			nav ul {
+    			list-style-type: none;
+    			padding: 0px;
+    			margin: 0cm;	
+			}
+			nav ul a {
+    			text-decoration: none;  			
+			}
+			article {
+    			margin-left: 100px;
+    			border-left: 0cm solid snow;
+    			padding: 1.5cm;
+    			overflow: hidden;
+			}
+			h1 {
+    			color: yellow;
+    			text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+			}
+			
+			h2 {
+    			color: yellow;
+    			text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+			}
+			p {
+    			display: block;
+    			margin-top: 1em;
+    			margin-bottom: 1em;
+    			margin-left: 12.2cm;
+   		 		margin-right: 12cm;
+    			color: White;
+    			text-shadow: 1px 1px 2px black, 0 0 25px darkslategray, 0 0 5px black;
+			}
+			
+			td {
+				color: white;
+    			text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    		}
+			
+			th {
+    			color: white;
+    			text-shadow: 2px 2px 4px gray;
+			}
+			li {
+    			color: black;
+    			text-shadow: 2px 2px 4px gray;
+			}
+			body {
+    			background: url("ShowSkill.png");
+    			background-size: 100%;
+    			background-repeat: no-repeat;
+    			padding-top: 0px;	
+    			background-color: black;	 
+			}
+			#profilePic {
+      			background-image: url("IMAGE.jpg");
+      			background-size: 100%;
+      			height: 250px;
+      			width: 140px;
+      			border-radius: 30px;
+      			
+   			}
+			table, th, td {
+    			border:0px solid white;
+    			margin-left: 0cm;
+    			padding: 5px;
+			}

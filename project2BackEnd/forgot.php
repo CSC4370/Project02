@@ -31,13 +31,17 @@ $error = "Both fields are required.";
 ?>
 <html>
 <head>
+
+<link rel="stylesheet"
+		href="forgot.css">
+
 <style type="text/css">
  input{
  border:1px solid olive;
  border-radius:5px;
  }
  h1{
-  color:darkgreen;
+  color:yellow;
   font-size:22px;
   text-align:center;
  }
@@ -45,18 +49,22 @@ $error = "Both fields are required.";
 </style>
 </head>
 <body>
-<h1 class="hello">Hello, <em><?php echo $user_check;?>Guest User!</em></h1>
-	<br />
-	<center><a href="logout.php" style="font-size:18px">Return to Login</a></center>
-		<br /><br />
 
+	
+	<center><a href="logout.php" style="font-size:18px">Return to Login</a></center>
+	<h1 class="hello">Hello, <em><?php echo $user_check;?>Guest User!</em></h1>
+		
+<br /><br />
+<br /><br /><br /><br />
+<br /><br /><br /><br />
+<br /><br /><br /><br />
 <h1>Forgot Password<h1>
 <form action='#' method='post'>
-<table cellspacing='5' align='center'>
+<center><table>
 <tr><td>User Name:</td><td><input type='text' name='username'/></td></tr>
 <tr><td>Firstname:</td><td><input type='text' name='firstname'/></td></tr>
 <tr><td></td><td><input type='submit' name='submit' value='Submit'/></td></tr>
-</table>
+</table></center>
 </form>
 <div class="error"><?php echo $message;?></div>
 <div class="error"><?php echo $error;?></div>

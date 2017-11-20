@@ -45,18 +45,9 @@ $moreinfo = $_POST['moreinfo'];
 
 
 <link rel="stylesheet"
-href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+href="registration.css">
 
-<style>
-			div {
-    			border: 0px solid black;
-    			margin-top: 10px;
-    			margin-bottom: 60px;
-    			margin-right: 15px;
-    			margin-left: 10px;
-    			background-color: white;
-			}
-		</style>
+
 </head>
 
 
@@ -67,56 +58,60 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 <a href="index.php" style="font-size:14px">Return to Login</a>
 
-<h3 align="center">User Login Form</h3>
+<br /><br />
+<br /><br /><br /><br />
+<br /><br /><br /><br />
+<br /><br /><br /><br />
+<h1 align="center">User Login Form</h1>
 
 <center>
 <table border="0" width="40%">
 <div class="container">
 <form action="registration.php" method="post" name="Form" onsubmit="" action="">
 	
-	<tr>
+	<tr align="center">
 		<td>
 			<div class="form-group">
-			<label for="username">Username</label>
+			<label for="username">Username</label><br />
 			<input type="text" name="username" class="form-control" length="50" required="">
 		</td>
 	</tr></div>
 	
-	<tr>
+	<tr align="center">
 		<td>
 			<div class="form-group">
-			<label for="password">Password</label>
+			<label for="password">Password</label><br />
 			<input type="password" name="password" class="form-control" length="50" required="">
 		</td>
 	</tr></div>
 		
-	<tr>
+	<tr align="center">
 		<td>
 			<div class="form-group">
-			<label for="firstname">First Name</label>
+			<label for="firstname">First Name</label><br />
 			<input type="text" name="firstname" class="form-control" length="50" required="">
 		</td>
 	</tr></div>
 	
-	<tr>		
+	<tr align="center">		
 		<td>
 			<div class="form-group">
-			<label for="lastname">Last Name</label>
+			<label for="lastname">Last Name</label><br />
 			<input type="text" name="lastname" class="form-control" length="50" required="">
 		</td>
 	</tr></div>
 	
-	<tr>	
+	<tr align="center">	
 		<td>
 			<div class="form-group">
-			<label for="middlename">Middle Name</label>
+			<label for="middlename">Middle Name</label><br />
 			<input type="text" name="middlename" class="form-control" length="50" required="">
 		</td>
 	</tr></div>
 	
-	<tr>
+	<tr align="center">
 		<td><div class="form-group">
-			<label for="gender">Gender</label>
+			<label for="gender">Gender</label><br />
 			<select name="gender" class="form-control" length="7" required="">
 				<option></option>
 				<option>Male</option>
@@ -124,17 +119,17 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 			</select></td>
 	</tr></div>
 	
-	<tr>
+	<tr align="center">
 		<td>
 			<div class="form-group">
-			<label for="sport">Sport</label>
+			<label for="sport">Sport</label><br />
 			<input type="text" name="sport" class="form-control" length="50" required="">
 		</td>
 	</tr></div>
 	
-	<tr>
+	<tr align="center">
 		<td><div class="form-group">
-			<label for="classification">Classification</label>
+			<label for="classification">Classification</label><br />
 			<select name="classification" class="form-control" length="15" required="">
 				<option></option>
 				<option>Athlete</option>
@@ -142,14 +137,14 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 			</select></td>
 	</tr></div>
 	
-	<tr>
+	<tr align="center">
 		<td>
 			<div class="form-group">
-			<label for="moreinfo">More Info</label>
+			<label for="moreinfo">More Info</label><br />
 			<input type="text" name="moreinfo" class="form-control">
 		</td>
 	</tr>
-	<tr>
+	<tr align="center">
 		<td align="center">
 			<input class="btn btn-primary" type="submit" name="submit" value="Submit">
 		</td>
