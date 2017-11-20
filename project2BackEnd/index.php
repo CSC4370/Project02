@@ -52,6 +52,7 @@ if ((isset($_SESSION['username']) != '')) {
 	
 	<form method="post" action="index2.php">
 		
+		<a href="forgot.php">Forgot Password</a> | 
 		
 		<a href="registration.php" style="font-size:14px">New? Then Register Here</a>
 		
